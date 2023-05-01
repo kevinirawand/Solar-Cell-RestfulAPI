@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "22784fd4-ba59-4986-aae2-37bd7a8f7979",
+		"name": "Solar Cell",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24097278"
+	},
+	"item": [
+		{
+			"name": "Post Image",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "model",
+							"value": "model1",
+							"type": "text"
+						},
+						{
+							"key": "format",
+							"value": "json",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/jekibus/dev/ds/pred2.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "103.117.57.28:5000",
+					"host": ["103", "117", "57", "28"],
+					"port": "5000"
+				}
+			},
+			"response": []
+		}
+	]
+}
